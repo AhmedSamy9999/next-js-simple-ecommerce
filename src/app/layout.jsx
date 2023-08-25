@@ -1,5 +1,7 @@
 import "./globals.css";
 import { Inter, Lalezar } from "next/font/google";
+import Navbar from "@/components/Navbar";
+import Footer from "@/components/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const lalezar = Lalezar({ subsets: ["arabic"], weight: ["400"] });
@@ -13,16 +15,9 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body className={inter.className}>
-        <h1 className={lalezar.className}>أحمد سامي</h1>
-        <nav>
-          <ul>
-            <li>About</li>
-            <li>Blog</li>
-            <li>Portfolio</li>
-            <li>Contact</li>
-          </ul>
-        </nav>
+        <Navbar />
         {children}
+        <Footer />
       </body>
     </html>
   );
