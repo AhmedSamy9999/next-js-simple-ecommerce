@@ -1,7 +1,7 @@
 import "./globals.css";
 import { Inter, Lalezar } from "next/font/google";
-import Navbar from "@/components/Navbar";
-import Footer from "@/components/Footer";
+import Navbar from "@/components/Navbar/Navbar";
+import Footer from "@/components/Footer/Footer";
 
 const inter = Inter({ subsets: ["latin"] });
 const lalezar = Lalezar({ subsets: ["arabic"], weight: ["400"] });
