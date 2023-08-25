@@ -15,7 +15,7 @@ export const links = [
     url: "/blog",
   },
   {
-    id: 2,
+    id: 4,
     title: "Contact",
     url: "/contact",
   },

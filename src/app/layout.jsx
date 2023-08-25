@@ -1,10 +1,10 @@
 import "./globals.css";
-import { Inter, Lalezar } from "next/font/google";
+
+import { Montserrat } from "next/font/google";
+const bodyFont = Montserrat({ subsets: ["latin"] });
+
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";
-
-const inter = Inter({ subsets: ["latin"] });
-const lalezar = Lalezar({ subsets: ["arabic"], weight: ["400"] });
 
 export const metadata = {
   title: "Create Next App",
@@ -14,7 +14,7 @@ export const metadata = {
 export default function RootLayout({ children }) {
   return (
     <html lang="en">
-      <body className={inter.className}>
+      <body className={bodyFont.className}>
         <Navbar />
         {children}
         <Footer />
