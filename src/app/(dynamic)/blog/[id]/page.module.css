@@ -35,3 +35,14 @@
   columns: 2;
   text-align: justify;
 }
+
+.gallery {
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  margin: 20px;
+}
+
+.gallery img {
+  border-radius: 15px;
+}
