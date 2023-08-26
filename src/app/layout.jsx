@@ -1,7 +1,7 @@
 import "./globals.css";
 
 import { Montserrat } from "next/font/google";
-const bodyFont = Montserrat({ subsets: ["latin"] });
+const bodyFont = Montserrat({ subsets: ["latin"], weight: ["400", "900"] });
 
 import Navbar from "@/components/Navbar/Navbar";
 import Footer from "@/components/Footer/Footer";

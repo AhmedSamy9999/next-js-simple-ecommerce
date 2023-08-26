@@ -1,2 +1,11 @@
 .logout {
+  background: var(--color-primary);
+  border: none;
+  padding: 8px;
+  font-size: 14px;
+  text-transform: uppercase;
+  font-weight: 600;
+  color: #111;
+  cursor: pointer;
+  border-radius: 4px;
 }
