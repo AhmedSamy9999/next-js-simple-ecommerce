@@ -16,7 +16,7 @@
   font-weight: 900;
   text-transform: uppercase;
   background: linear-gradient(
-    to bottom,
+    to top,
     var(--color-primary),
     var(--color-secondary)
   );
